@@ -24,7 +24,6 @@ function Post-SCAnalysis
             -Body $body -WebSession $SecurityCenter.Session -UseBasicParsing
     }
 
-
 }#End Get-SCAnalysis
 
 function Post-SCAnalysisDL 
@@ -45,6 +44,5 @@ function Post-SCAnalysisDL
         return Invoke-RestMethod -Uri ($SecurityCenter.Uri+"/analysis/download") -Method Post `
             -Body $body -WebSession $SecurityCenter.Session -UseBasicParsing
     }
-
 
 }#End Get-SCAnalysisDL
