@@ -1,5 +1,5 @@
 # PS-TenableSecurityCenter
-Powershell plugin to directly interface with the Tenable Security Center 5.6.X via the documented REST api <https://docs.tenable.com/sccv/api/index.html>
+Powershell plugin to directly interface with the Tenable Security Center 5.6.X+ via the documented REST api <https://docs.tenable.com/sccv/api/index.html>
 
 On this inital implimentaion I've only added support for PKI certificated via a hardtoken/local store or 
 you can pass in your own X509 certificate.
